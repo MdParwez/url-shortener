@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Glassmorphic Container (Brighter) */
+  .container {
+    background: rgba(255, 255, 255, 0.3); /* Brighter white */
+    backdrop-filter: blur(15px); /* Increased blur */
+    -webkit-backdrop-filter: blur(15px);
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Added a border */
+  }
+  
+  /* Input Field */
+  input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 16px;
+    color: #222; /* Darker text */
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Submit Button */
+  button {
+    background: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 14px;
+    margin-top: 14px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: #218838;
+    transform: scale(1.05);
+  }
+  
+  /* Shortened URL Display */
+  .shortened-url {
+    margin-top: 15px;
+    font-size: 18px;
+    color: black; /* Darker text */
+    font-weight: bold;
+  }
+  
+  .shortened-url a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .shortened-url a:hover {
+    text-decoration: underline;
+  }
+  
