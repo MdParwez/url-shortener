@@ -18,5 +18,5 @@ A **URL Shortener** web application built using **React.js** for the frontend, *
 - Flask-PyMongo (MongoDB integration)  
 
 ### **Database:**  
-- MongoDB Atlas (Cloud-based NoSQL Database)  
+- MongoDB Atlas (Cloud-based NoSQL Database)
 
